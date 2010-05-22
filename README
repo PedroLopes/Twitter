@@ -12,7 +12,7 @@ The phrases are then altered with the reads of the lm-sensors. You can check the
 
 INSTALL
 -------------------
-The best way to install is make add the palimpsest.py to your crontab
+The best way to install is make add the palimpsest to your crontab
 - crontab -e
 
 # m h  dom mon dow   command
