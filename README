@@ -1,0 +1,25 @@
+This is a small demo project, it is a random sentence generator that uses:
+- python script to generate gramma drover sentences
+- lm-sensors to read the temperature of a AMD dual core (4 values)
+- twidge to send the sentences to your twitter account
+
+At the moment it is not generic, If you want to run it, you may have to do some mods in the shell scripts (the paths and the lm-sensors read).
+
+The pseudo-random generator is based on Peter Norvig's Python vs. Lisp article:
+- http://norvig.com/python-lisp.html
+
+The phrases are then altered with the reads of the lm-sensors. You can check the twitter feed here: http://twitter.com/PirateBroadcast
+
+INSTALL
+-------------------
+The best way to install is make add the palimpsest.py to your crontab
+- crontab -e
+
+# m h  dom mon dow   command
+*/30 * * * * /home/pedro/Apps/Shelltwitt/palimpsest
+#this executes the twitter update every 30 minutes
+
+------------------
+
+
+

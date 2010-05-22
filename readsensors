@@ -1,0 +1,2 @@
+cd /home/pedro/Apps/Shelltwitt
+sensors k8temp-pci-00c3 > sensors.data

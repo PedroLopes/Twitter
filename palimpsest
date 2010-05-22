@@ -1,0 +1,6 @@
+cd /home/pedro/Apps/Shelltwitt/
+./readsensors
+var=`python palimpsest.py`
+sleep 1
+twidge update "$var"
+
